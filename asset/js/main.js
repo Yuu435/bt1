@@ -1,5 +1,5 @@
 const array = [1, 2, 3, 2, 4, 5, 6, 5, 7, 8, 9, 8];
-
+console.log(array);
 const removeEle = (arr) => {
     const result = [];
 
@@ -10,5 +10,4 @@ const removeEle = (arr) => {
     });
     return result;
 }
-const resultArray = removeEle(array);
-console.log(resultArray);
+console.log(removeEle(array));
